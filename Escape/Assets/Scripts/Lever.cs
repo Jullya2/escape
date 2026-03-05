@@ -6,29 +6,40 @@ public class Lever : MonoBehaviour
 
     private bool playerNear = false;
     private bool activated = false;
+    private PlayerKeys playerKeys;
 
     void Update()
     {
         if (playerNear && Input.GetKeyDown(KeyCode.E) && !activated)
         {
-            activated = true;
-            door.SetActive(false);
+            if (playerKeys != null && playerKeys.UseKey())
+            {
+                activated = true;
+                door.SetActive(false);
+                Debug.Log("Alavanca ativada! Porta aberta.");
+            }
+            else
+            {
+                Debug.Log("Você precisa de uma chave!");
+            }
         }
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Player")
+        if (other.CompareTag("Player"))
         {
             playerNear = true;
+            playerKeys = other.GetComponent<PlayerKeys>();
         }
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if (other.tag == "Player")
+        if (other.CompareTag("Player"))
         {
             playerNear = false;
+            playerKeys = null;
         }
     }
 }
