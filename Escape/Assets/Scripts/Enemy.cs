@@ -9,6 +9,8 @@ public class Enemy : MonoBehaviour
     public Transform pointB;
     public float speed = 2f;
 
+    public VictoryManager victoryManager;
+
     private Transform target;
 
     void Start()
@@ -31,7 +33,7 @@ public class Enemy : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        // dano no player
+       
         if (other.CompareTag("Player"))
         {
             PlayerLife player = other.GetComponent<PlayerLife>();
@@ -42,13 +44,14 @@ public class Enemy : MonoBehaviour
             }
         }
 
-        // dano no inimigo
+     
         if (other.CompareTag("Attack"))
         {
             life--;
 
             if (life <= 0)
             {
+                victoryManager.ShowVictory();
                 Destroy(gameObject);
             }
         }

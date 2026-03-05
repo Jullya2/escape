@@ -4,6 +4,8 @@ public class PlayerLife : MonoBehaviour
 {
     public int life = 5;
 
+    public GameManager gameManager;
+
     public void TakeDamage(int damage)
     {
         life -= damage;
@@ -13,6 +15,7 @@ public class PlayerLife : MonoBehaviour
         if (life <= 0)
         {
             Debug.Log("Player morreu!");
+            gameManager.ShowDefeat();
             Destroy(gameObject);
         }
     }
