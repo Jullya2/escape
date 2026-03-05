@@ -8,6 +8,7 @@ TagManager:
   - Interactable
   - Attack
   - Box
+  - Door
   layers:
   - Default
   - TransparentFX

@@ -3,8 +3,9 @@ using UnityEngine;
 public class Lever : MonoBehaviour
 {
     public GameObject door;
-    private bool playerNear;
-    private bool activated;
+
+    private bool playerNear = false;
+    private bool activated = false;
 
     void Update()
     {
@@ -17,7 +18,7 @@ public class Lever : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.tag == "Player")
         {
             playerNear = true;
         }
@@ -25,7 +26,7 @@ public class Lever : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.tag == "Player")
         {
             playerNear = false;
         }

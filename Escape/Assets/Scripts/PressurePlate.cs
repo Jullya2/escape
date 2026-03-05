@@ -2,13 +2,21 @@ using UnityEngine;
 
 public class PressurePlate : MonoBehaviour
 {
-    public GameObject door;
+    public bool activated = false;
 
-    void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Box"))
         {
-            door.SetActive(false);
+            activated = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Box"))
+        {
+            activated = false;
         }
     }
 }
