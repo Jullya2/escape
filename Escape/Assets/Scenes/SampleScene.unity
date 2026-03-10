@@ -889,6 +889,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   life: 3
+  damage: 1
+  pointA: {fileID: 0}
+  pointB: {fileID: 0}
+  speed: 2
+  victoryManager: {fileID: 0}
 --- !u!212 &361133159
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1356,6 +1361,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   life: 3
+  damage: 1
+  pointA: {fileID: 0}
+  pointB: {fileID: 0}
+  speed: 2
+  victoryManager: {fileID: 0}
 --- !u!212 &445579642
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4283,6 +4293,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   life: 3
+  damage: 1
+  pointA: {fileID: 0}
+  pointB: {fileID: 0}
+  speed: 2
+  victoryManager: {fileID: 0}
 --- !u!212 &1497947833
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4552,7 +4567,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ebd0788347246f418363dfd0c0629fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PressurePlate
-  door: {fileID: 285522865}
+  activated: 0
 --- !u!61 &2063713398
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4915,6 +4930,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   life: 3
+  damage: 1
+  pointA: {fileID: 0}
+  pointB: {fileID: 0}
+  speed: 2
+  victoryManager: {fileID: 0}
 --- !u!212 &2135666802
 SpriteRenderer:
   m_ObjectHideFlags: 0

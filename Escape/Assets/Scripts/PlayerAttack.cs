@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class PlayerAttack : MonoBehaviour
 {
@@ -12,13 +13,14 @@ public class PlayerAttack : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        // Botão esquerdo do mouse
+        if (Input.GetMouseButtonDown(0))
         {
             StartCoroutine(Attack());
         }
     }
 
-    System.Collections.IEnumerator Attack()
+    IEnumerator Attack()
     {
         attackArea.SetActive(true);
         yield return new WaitForSeconds(attackTime);
