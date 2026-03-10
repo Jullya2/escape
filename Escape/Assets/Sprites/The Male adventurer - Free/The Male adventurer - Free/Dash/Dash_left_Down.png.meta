@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 29f6c7adbc660a84f888f00d0b4c3ddf
+guid: 47506af8f7f9a4848935c3fc27b22572
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1580441614216361810
-    second: Enemy3-Fly_0
+      213: -1840773428194919625
+    second: Dash_left_Down_0
   - first:
-      213: 3768569184673848441
-    second: Enemy3-Fly_1
+      213: 1875625793595795468
+    second: Dash_left_Down_1
   - first:
-      213: 4554274250909831551
-    second: Enemy3-Fly_2
+      213: 7867718567276984950
+    second: Dash_left_Down_2
   - first:
-      213: -4082173696017322263
-    second: Enemy3-Fly_3
+      213: -1049461812062581701
+    second: Dash_left_Down_3
   - first:
-      213: -77624808259697874
-    second: Enemy3-Fly_4
+      213: -2038100954989638060
+    second: Dash_left_Down_4
   - first:
-      213: -804159970561975091
-    second: Enemy3-Fly_5
+      213: 8825717010091521584
+    second: Dash_left_Down_5
   - first:
-      213: 1418816952933761602
-    second: Enemy3-Fly_6
+      213: -153465700515414115
+    second: Dash_left_Down_6
   - first:
-      213: -529208579966824279
-    second: Enemy3-Fly_7
+      213: -5093386938335890746
+    second: Dash_left_Down_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -160,13 +160,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Enemy3-Fly_0
+      name: Dash_left_Down_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 6
-        width: 39
-        height: 55
+        x: 17
+        y: 19
+        width: 15
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,20 +175,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2577c9b464bdee510800000000000000
-      internalID: 1580441614216361810
+      spriteID: 73bb674e1524476e0800000000000000
+      internalID: -1840773428194919625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy3-Fly_1
+      name: Dash_left_Down_1
       rect:
         serializedVersion: 2
-        x: 79
-        y: 6
-        width: 39
-        height: 55
+        x: 60
+        y: 20
+        width: 19
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +197,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 97cd7fbe4b5ac4430800000000000000
-      internalID: 3768569184673848441
+      spriteID: c0866d6c8bf870a10800000000000000
+      internalID: 1875625793595795468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy3-Fly_2
+      name: Dash_left_Down_2
       rect:
         serializedVersion: 2
-        x: 141
-        y: 6
-        width: 40
-        height: 55
+        x: 106
+        y: 23
+        width: 22
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +219,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f7150373d48043f30800000000000000
-      internalID: 4554274250909831551
+      spriteID: 67a3a4b1a50cf2d60800000000000000
+      internalID: 7867718567276984950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy3-Fly_3
+      name: Dash_left_Down_3
       rect:
         serializedVersion: 2
-        x: 204
-        y: 7
-        width: 41
-        height: 54
+        x: 154
+        y: 23
+        width: 22
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,20 +241,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9eea179d6a43957c0800000000000000
-      internalID: -4082173696017322263
+      spriteID: b3c0caeca009f61f0800000000000000
+      internalID: -1049461812062581701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy3-Fly_4
+      name: Dash_left_Down_4
       rect:
         serializedVersion: 2
-        x: 269
-        y: 8
-        width: 41
-        height: 53
+        x: 202
+        y: 23
+        width: 22
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e234cede5a83ceef0800000000000000
-      internalID: -77624808259697874
+      spriteID: 45e4571daf537b3e0800000000000000
+      internalID: -2038100954989638060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy3-Fly_5
+      name: Dash_left_Down_5
       rect:
         serializedVersion: 2
-        x: 334
-        y: 9
-        width: 41
-        height: 52
+        x: 250
+        y: 21
+        width: 21
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -285,20 +285,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dcc901474cc07d4f0800000000000000
-      internalID: -804159970561975091
+      spriteID: 036b0aa2cde3b7a70800000000000000
+      internalID: 8825717010091521584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy3-Fly_6
+      name: Dash_left_Down_6
       rect:
         serializedVersion: 2
-        x: 399
-        y: 8
-        width: 41
-        height: 53
+        x: 298
+        y: 21
+        width: 19
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,20 +307,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2424be06086a0b310800000000000000
-      internalID: 1418816952933761602
+      spriteID: d9f729b22c7ceddf0800000000000000
+      internalID: -153465700515414115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy3-Fly_7
+      name: Dash_left_Down_7
       rect:
         serializedVersion: 2
-        x: 464
-        y: 7
-        width: 40
-        height: 54
+        x: 348
+        y: 20
+        width: 18
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,8 +329,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a01df2b99fd7a8f0800000000000000
-      internalID: -529208579966824279
+      spriteID: 6c2ffd4c097a059b0800000000000000
+      internalID: -5093386938335890746
       vertices: []
       indices: 
       edges: []
@@ -349,14 +349,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Enemy3-Fly_0: 1580441614216361810
-      Enemy3-Fly_1: 3768569184673848441
-      Enemy3-Fly_2: 4554274250909831551
-      Enemy3-Fly_3: -4082173696017322263
-      Enemy3-Fly_4: -77624808259697874
-      Enemy3-Fly_5: -804159970561975091
-      Enemy3-Fly_6: 1418816952933761602
-      Enemy3-Fly_7: -529208579966824279
+      Dash_left_Down_0: -1840773428194919625
+      Dash_left_Down_1: 1875625793595795468
+      Dash_left_Down_2: 7867718567276984950
+      Dash_left_Down_3: -1049461812062581701
+      Dash_left_Down_4: -2038100954989638060
+      Dash_left_Down_5: 8825717010091521584
+      Dash_left_Down_6: -153465700515414115
+      Dash_left_Down_7: -5093386938335890746
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

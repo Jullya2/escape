@@ -1,31 +1,13 @@
 fileFormatVersion: 2
-guid: 29f6c7adbc660a84f888f00d0b4c3ddf
+guid: 687805980a68c164bafe39787dc2a3bf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1580441614216361810
-    second: Enemy3-Fly_0
+      213: -6908064060672369570
+    second: Dash_Dust_right_Up_0
   - first:
-      213: 3768569184673848441
-    second: Enemy3-Fly_1
-  - first:
-      213: 4554274250909831551
-    second: Enemy3-Fly_2
-  - first:
-      213: -4082173696017322263
-    second: Enemy3-Fly_3
-  - first:
-      213: -77624808259697874
-    second: Enemy3-Fly_4
-  - first:
-      213: -804159970561975091
-    second: Enemy3-Fly_5
-  - first:
-      213: 1418816952933761602
-    second: Enemy3-Fly_6
-  - first:
-      213: -529208579966824279
-    second: Enemy3-Fly_7
+      213: 4536635684896126156
+    second: Dash_Dust_right_Up_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -160,13 +142,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Enemy3-Fly_0
+      name: Dash_Dust_right_Up_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 6
-        width: 39
-        height: 55
+        x: 110
+        y: 17
+        width: 53
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,20 +157,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2577c9b464bdee510800000000000000
-      internalID: 1580441614216361810
+      spriteID: e5c1bf95650a120a0800000000000000
+      internalID: -6908064060672369570
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy3-Fly_1
+      name: Dash_Dust_right_Up_1
       rect:
         serializedVersion: 2
-        x: 79
-        y: 6
-        width: 39
-        height: 55
+        x: 202
+        y: 16
+        width: 99
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,140 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 97cd7fbe4b5ac4430800000000000000
-      internalID: 3768569184673848441
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy3-Fly_2
-      rect:
-        serializedVersion: 2
-        x: 141
-        y: 6
-        width: 40
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f7150373d48043f30800000000000000
-      internalID: 4554274250909831551
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy3-Fly_3
-      rect:
-        serializedVersion: 2
-        x: 204
-        y: 7
-        width: 41
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9eea179d6a43957c0800000000000000
-      internalID: -4082173696017322263
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy3-Fly_4
-      rect:
-        serializedVersion: 2
-        x: 269
-        y: 8
-        width: 41
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e234cede5a83ceef0800000000000000
-      internalID: -77624808259697874
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy3-Fly_5
-      rect:
-        serializedVersion: 2
-        x: 334
-        y: 9
-        width: 41
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dcc901474cc07d4f0800000000000000
-      internalID: -804159970561975091
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy3-Fly_6
-      rect:
-        serializedVersion: 2
-        x: 399
-        y: 8
-        width: 41
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2424be06086a0b310800000000000000
-      internalID: 1418816952933761602
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy3-Fly_7
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 7
-        width: 40
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9a01df2b99fd7a8f0800000000000000
-      internalID: -529208579966824279
+      spriteID: cc438998e1e55fe30800000000000000
+      internalID: 4536635684896126156
       vertices: []
       indices: 
       edges: []
@@ -349,14 +199,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Enemy3-Fly_0: 1580441614216361810
-      Enemy3-Fly_1: 3768569184673848441
-      Enemy3-Fly_2: 4554274250909831551
-      Enemy3-Fly_3: -4082173696017322263
-      Enemy3-Fly_4: -77624808259697874
-      Enemy3-Fly_5: -804159970561975091
-      Enemy3-Fly_6: 1418816952933761602
-      Enemy3-Fly_7: -529208579966824279
+      Dash_Dust_right_Up_0: -6908064060672369570
+      Dash_Dust_right_Up_1: 4536635684896126156
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 29f6c7adbc660a84f888f00d0b4c3ddf
+guid: eccce99beca55824d8e566224c529eb2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1580441614216361810
-    second: Enemy3-Fly_0
+      213: -8054057197678022655
+    second: Jump_Right_Down_0
   - first:
-      213: 3768569184673848441
-    second: Enemy3-Fly_1
+      213: -230936420218378560
+    second: Jump_Right_Down_1
   - first:
-      213: 4554274250909831551
-    second: Enemy3-Fly_2
+      213: -7234105213257357142
+    second: Jump_Right_Down_2
   - first:
-      213: -4082173696017322263
-    second: Enemy3-Fly_3
+      213: 8456741452102493525
+    second: Jump_Right_Down_3
   - first:
-      213: -77624808259697874
-    second: Enemy3-Fly_4
+      213: -4135289700138340802
+    second: Jump_Right_Down_4
   - first:
-      213: -804159970561975091
-    second: Enemy3-Fly_5
+      213: 3521043732993758599
+    second: Jump_Right_Down_5
   - first:
-      213: 1418816952933761602
-    second: Enemy3-Fly_6
+      213: 404870893985042475
+    second: Jump_Right_Down_6
   - first:
-      213: -529208579966824279
-    second: Enemy3-Fly_7
+      213: 5834578888957369662
+    second: Jump_Right_Down_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -160,13 +160,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Enemy3-Fly_0
+      name: Jump_Right_Down_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 6
-        width: 39
-        height: 55
+        x: 17
+        y: 19
+        width: 15
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,20 +175,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2577c9b464bdee510800000000000000
-      internalID: 1580441614216361810
+      spriteID: 10039b3a6ad3a3090800000000000000
+      internalID: -8054057197678022655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy3-Fly_1
+      name: Jump_Right_Down_1
       rect:
         serializedVersion: 2
-        x: 79
-        y: 6
-        width: 39
-        height: 55
+        x: 66
+        y: 20
+        width: 17
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +197,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 97cd7fbe4b5ac4430800000000000000
-      internalID: 3768569184673848441
+      spriteID: 0c6ee23ac8c8bccf0800000000000000
+      internalID: -230936420218378560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy3-Fly_2
+      name: Jump_Right_Down_2
       rect:
         serializedVersion: 2
-        x: 141
-        y: 6
-        width: 40
-        height: 55
+        x: 114
+        y: 25
+        width: 16
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +219,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f7150373d48043f30800000000000000
-      internalID: 4554274250909831551
+      spriteID: aa86effe2ab4b9b90800000000000000
+      internalID: -7234105213257357142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy3-Fly_3
+      name: Jump_Right_Down_3
       rect:
         serializedVersion: 2
-        x: 204
-        y: 7
-        width: 41
-        height: 54
+        x: 162
+        y: 32
+        width: 15
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,20 +241,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9eea179d6a43957c0800000000000000
-      internalID: -4082173696017322263
+      spriteID: 555e3e18b816c5570800000000000000
+      internalID: 8456741452102493525
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy3-Fly_4
+      name: Jump_Right_Down_4
       rect:
         serializedVersion: 2
-        x: 269
-        y: 8
-        width: 41
-        height: 53
+        x: 210
+        y: 30
+        width: 16
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e234cede5a83ceef0800000000000000
-      internalID: -77624808259697874
+      spriteID: e3e2ceb6def7c96c0800000000000000
+      internalID: -4135289700138340802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy3-Fly_5
+      name: Jump_Right_Down_5
       rect:
         serializedVersion: 2
-        x: 334
-        y: 9
-        width: 41
-        height: 52
+        x: 258
+        y: 24
+        width: 16
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -285,20 +285,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dcc901474cc07d4f0800000000000000
-      internalID: -804159970561975091
+      spriteID: 78555bfae924dd030800000000000000
+      internalID: 3521043732993758599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy3-Fly_6
+      name: Jump_Right_Down_6
       rect:
         serializedVersion: 2
-        x: 399
-        y: 8
-        width: 41
-        height: 53
+        x: 306
+        y: 22
+        width: 16
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,20 +307,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2424be06086a0b310800000000000000
-      internalID: 1418816952933761602
+      spriteID: b209fd7dee36e9500800000000000000
+      internalID: 404870893985042475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy3-Fly_7
+      name: Jump_Right_Down_7
       rect:
         serializedVersion: 2
-        x: 464
-        y: 7
-        width: 40
-        height: 54
+        x: 354
+        y: 19
+        width: 16
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,8 +329,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a01df2b99fd7a8f0800000000000000
-      internalID: -529208579966824279
+      spriteID: e3d1c4a269698f050800000000000000
+      internalID: 5834578888957369662
       vertices: []
       indices: 
       edges: []
@@ -349,14 +349,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Enemy3-Fly_0: 1580441614216361810
-      Enemy3-Fly_1: 3768569184673848441
-      Enemy3-Fly_2: 4554274250909831551
-      Enemy3-Fly_3: -4082173696017322263
-      Enemy3-Fly_4: -77624808259697874
-      Enemy3-Fly_5: -804159970561975091
-      Enemy3-Fly_6: 1418816952933761602
-      Enemy3-Fly_7: -529208579966824279
+      Jump_Right_Down_0: -8054057197678022655
+      Jump_Right_Down_1: -230936420218378560
+      Jump_Right_Down_2: -7234105213257357142
+      Jump_Right_Down_3: 8456741452102493525
+      Jump_Right_Down_4: -4135289700138340802
+      Jump_Right_Down_5: 3521043732993758599
+      Jump_Right_Down_6: 404870893985042475
+      Jump_Right_Down_7: 5834578888957369662
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
